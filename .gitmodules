@@ -1,3 +1,6 @@
 [submodule "TinyLLaVA_Factory"]
 	path = TinyLLaVA_Factory
 	url = https://github.com/TinyLLaVA/TinyLLaVA_Factory.git
+[submodule "OpenECADv2toSTEP"]
+	path = OpenECADv2toSTEP
+	url = https://github.com/Yuki-Kokomi/OpenECADv2toSTEP.git
