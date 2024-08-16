@@ -1,7 +1,7 @@
 # OpenECAD: An Efficient Visual Language Model for Editable 3D-CAD Design
 The project contains the source code used in the paper "OpenECAD: An Efficient Visual Language Model for Editable 3D-CAD Design."
 
-This project primarily utilizes modified DeepCAD libraries to convert the DeepCAD dataset into the OpenECAD dataset. The dataset is in LLaVA format, and the TinyLLaVA Factory is used to fine-tune the pre-trained Vision Language Model, resulting in the OpenECAD model weights. Finally, the OpenECAD model weights are run using the TinyLLaVA Factory.
+This project primarily utilizes modified DeepCAD libraries to convert the DeepCAD dataset into the OpenECAD dataset. The dataset is in LLaVA format, and the TinyLLaVA Factory is used to fine-tune the pre-trained Vision Language Model, resulting in the OpenECAD model weights. Finally, the OpenECAD model weights are run using the TinyLLaVA Factory. CUDA is need in this project.
 
 If you want to start from the training set we generated, please begin from Step 2.
 
