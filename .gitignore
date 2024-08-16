@@ -1,0 +1,10 @@
+data/
+__pycache__/
+*.tar*
+*_json/
+*_step/
+*_image/
+*.7z
+data.json
+output.*
+_*/
