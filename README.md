@@ -92,6 +92,11 @@ python tinyllava/serve/app.py --model-path <Your_Model_Path>
 
 If you want to batch process, you can refer to `eval.py`.
 
+Depending on the type of input images, you can use the following prompts:
+
+   - "This image shows 4 views of a 3D model from specific angles. Please use Python-style APIs to render this model."
+   - "This image shows a view of a 3D model from a certain angle. Please use Python-style APIs to render this model."
+
 
 ## Step 4. Convert the OpenECAD code to STEP files.
 
