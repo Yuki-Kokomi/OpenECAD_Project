@@ -159,8 +159,8 @@ import traceback
 errors = []
 for index in range(len(input_types)):
     cur_type = input_types[index]
-    src = src_base + cur_type
-    out = out_base + cur_type
+    src = os.path.join(src_base, cur_type)
+    out = os.path.join(out_base, cur_type)
     ensure_dir(out)
     out_paths = sorted(glob.glob(os.path.join(src, "*.{}".format("jpg"))))
     if cur_type == "Orthographic" :
