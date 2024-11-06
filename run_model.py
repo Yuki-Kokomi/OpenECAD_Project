@@ -1,7 +1,7 @@
 from tinyllava.eval.run_tiny_llava import *
 import argparse
 
-
+parser = argparse.ArgumentParser()
 parser.add_argument('--model_path', type=str, required=True, help="Path to the model.")
 parser.add_argument('--src', type=str, required=True, help="Path of Input Pictures and Reference Codes.")
 parser.add_argument('--out', type=str, required=True, help="Any output path you like.")
