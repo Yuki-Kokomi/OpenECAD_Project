@@ -11,6 +11,8 @@ The dataset and model weights can be accessed at https://huggingface.co/collecti
 
 To generate the OpenECAD dataset and train using other CAD datasets, please start from scratch (this project uses DeepCAD as an example).
 
+If you would like to directly try out our model's generation capabilities, you can run `aioscript.sh` and follow the step-by-step instructions provided.
+
 ## Step 1. Use the Bethany tool to convert the DeepCAD dataset into the OpenECAD dataset.
 First, download all the JSON files from the DeepCAD dataset and place them in the same directory. (Download link: http://www.cs.columbia.edu/cg/deepcad/data.tar)
 
@@ -87,6 +89,10 @@ If the environment is not installed, please first follow the steps mentioned in 
 You can use the model with the WebUI provided by TinyLLaVA:
 
 ```shell
+# You can download our models using git-lfs.
+# git lfs install
+# git clone https://huggingface.co/Yuki-Kokomi/OpenECADv2-SigLIP-2.4B
+
 python tinyllava/serve/app.py --model-path <Your_Model_Path>
 ```
 
